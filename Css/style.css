@@ -1,0 +1,462 @@
+body{
+    background-image: url(/images/bg.png);
+    background-size: 100% 580px; 
+    background-repeat: no-repeat; 
+    /* background-color: rgb(14, 14, 14); */
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* #dark_edition{
+    width: 100%;
+    height: 519px;
+    background-color: rgba(0,0,0, 0.6); /* rgba means (red,green,blue and a mean alpha means transparent color*/ 
+/* } */ 
+
+
+/* Start nav codding */
+nav{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color:rgba(0,0,0,0.7);    
+    float: left;
+    padding: 30px;
+}
+
+#welcome{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    width: 750px;
+    height: 40px;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+    margin-top: 10px;
+    /* border-spacing: 10px; */
+}
+
+#nav-item{
+    width: 20%;
+    height: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#nav-item:hover{
+    background-color: rgb(242, 37, 37);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/* End nav codding */
+
+/* Start home page Section Codding*/
+#home-section{
+    width: 100%;
+    height: 410px;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgba(0,0,0,0.7);
+    /* border-radius: 50% 0 0 0; */
+}
+
+#logo{
+    width: 170px;
+    height: 170px;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-color: rgba(252, 249, 249, 0.8);
+    border-style: solid;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#logo-text{
+    margin: 0;
+    padding: 0;
+    font-size: 150px;
+    font-family: verdana;
+    color: white;
+    margin-top: -15px;
+}
+
+#about_info{
+    color: white;
+    padding-top: 35px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 16px;
+    font-family: verdana;
+}
+#domain{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+    margin-left: 95px;
+}
+/* End home page Section Codding*/
+
+
+/* Start Login page nav Codding*/
+#domain_name{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+/* End Login page nav Codding*/
+
+/* Start Login page Section Codding*/
+fieldset{
+    width: 350px;
+    height: 230px;
+    border-width: 3px;
+    border-color: white;
+    margin-left: 100px;
+    padding: 25px;
+}
+
+legend{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#login-section{
+    width: 100%;
+    height: 410px;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+}
+
+#login-form{
+    font-family: Georgia;
+    color: white;
+    font-size: 20px;
+}
+
+#username{
+    width: 100%;
+    height: 22px;
+    background-color: inherit;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* border: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px; */
+}
+
+#password{
+    width: 100%;
+    height: 22px;
+    background-color: inherit;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* border: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 10px; */
+}
+
+#login-btn{
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: inherit;
+    margin-top: 14px;
+    font-size: 16px;
+    float: right;
+    font-weight: bold;
+    font-family: Georgia;
+}
+/* End Login page Section Codding*/
+
+/* Start contact page Section Codding*/
+#contact{
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    line-height: 40px;
+}
+/* End contact page Section Codding*/
+
+
+/* Start Product page Section Codding*/
+#product-section{
+    width: 100%;
+    height: 2800px;
+    box-sizing: border-box;
+    border-width: 1px;
+    /* border-color: red; */
+    border-style: solid;
+    float: left;
+}
+
+#brand{
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#brand-heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+#brand-pic{
+    width: 200px;
+    height: 80px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin: 16px;
+    margin-left: 42px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+#product_img{
+    width: 195px;
+    height: 75px;
+}
+
+#search{
+    width: 60%;
+    height: 50px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    font-size: 18px;
+    padding: 20px;
+    background-image: url(/images/icon.webp);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#zest-product{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+#zest{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#zest-product-pic{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    float: left;
+    margin: 18px;
+    margin-left: 50px;
+}
+
+#wrims-product{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+#wrims{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#wrims-product-pic{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    float: left;
+    margin: 18px;
+    margin-left: 50px;
+}
+
+
+#soni-product{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+#soni{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#soni-product-pic{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    float: left;
+    margin: 18px;
+    margin-left: 50px;
+}
+
+
+#dreambeauty-product{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+#dreambeauty{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#dreambeauty-product-pic{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    float: left;
+    margin: 18px;
+    margin-left: 50px;
+}
+
+#susie-campbel-product{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+#susie-campbel{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#susie-campbel-product-pic{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    float: left;
+    margin: 18px;
+    margin-left: 50px;
+}
+
+/* #prd_img{
+    width: 100%;
+    height: 220px;
+} */
+
+#product_name{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+#product-price{
+    margin: 10px;
+    padding: 0;
+    color: white;
+    float: left;
+}
+
+#buy{
+    margin: 10px;
+    padding: 0;
+    color: white;
+    float: right;
+}
+
+#icon-prd{
+    color: rgb(158, 11, 11);
+}
+/* End Product page Section Codding*/
+
+/* Start footer Section Codding*/
+footer{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    /* font-size: 30px; */
+}
+/* Start footer Section Codding*/
+
+
